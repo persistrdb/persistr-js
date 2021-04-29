@@ -1,0 +1,44 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: pubnub
+    versions:
+    - 4.29.11
+    - 4.30.1
+    - 4.31.0
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+    - 4.0.2
+  - dependency-name: scramjet
+    versions:
+    - 4.35.11
+    - 4.35.12
+    - 4.35.13
+    - 4.35.14
+    - 4.35.15
+  - dependency-name: mocha
+    versions:
+    - 8.2.1
+    - 8.3.0
+    - 8.3.1
+  - dependency-name: promise-mysql
+    versions:
+    - 5.0.2
+  - dependency-name: mustache
+    versions:
+    - 4.1.0
+  - dependency-name: amqp-connection-manager
+    versions:
+    - 3.2.1
+  - dependency-name: luxon
+    versions:
+    - 1.25.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
